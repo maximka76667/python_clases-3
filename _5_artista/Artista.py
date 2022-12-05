@@ -26,3 +26,5 @@ class Artista:
     def get_edad(self):
         return datetime.today().year - self.__ano_nacimiento
         
+    def show_info(self):
+        print(self.__nombre + ", " + self.__pais + ", " + str(self.__ano_nacimiento), end = "")
