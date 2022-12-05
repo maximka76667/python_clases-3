@@ -1,4 +1,5 @@
-from _datetime import datetime, date
+from _datetime import datetime
+
 
 class Autor:
 
